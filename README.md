@@ -1,75 +1,32 @@
-# Template repository for papers by the GIF group
+# Geophysical electromagnetics- A retrospective, DISC 2017, and a look forward  
 
-Please use this repository as a template for papers
+_Douglas W. Oldenburg, Lindsey J. Heagy and Seogi Kang_
 
-## Repository name
+(https://doi.org/10.1190/tle40020140.1)
 
-The naming convention should follow 
-
-```
-year-authors-journal-short-title
-```
-
-As an example for two authors: 
-```
-2023-heagy-oldenburg-gji-casing-permeability
-```
-
-if there are more than 2 authors, you can use `etal` to indicate multiple authors, e.g. 
-```
-2024-heagy-etal-tle-future-of-applied-geophysics
-```
-
-## Contents
-
-The paper should be put in a `paper` folder. You can put the original latex there. The published pdf from the journal should also be included here. 
-
-Please also include a `thumbnail.png`. This should be a high-impact figure from the paper. 
-
-## MyST.md
-
-The key file that you will need to update is the `myst.yml` file which is located in the `paper` folder. You will need to fill out the fields that are currently commented out. 
-
-The project id should follow the pattern `ubcgif-YEAR-AUTHORS-JOURNAL`, e.g. `ubcgif-2023-heagy-oldenburg-gji` or `2024-heagy-etal-tle`
-
-Descriptions of the fields is available here: https://mystmd.org/guide/frontmatter#available-frontmatter-fields
-
-## Previewing the site
-
-You can preview the build using MyST. Please have MyST installed ([instructions](https://mystmd.org/guide/installing)). From the `paper` folder, you can then run 
-
-```
-myst start
-```
-
-and a preview will launch, usually from `http://localhost:3000`
-
-Also, whenever you create a pull-request to the repo, curvenote will build you a preview 🚀. A link will be added to the comment thread that looks something like this 
-
-![image](https://github.com/ubcgif/template-repository-paper/assets/6361812/b7a144c5-8458-474b-98c4-9e5890ac859e)
-
-
-## README 
-Please use the following as a template for the 
-```
-# Template repository for papers
-
-_Authors_
-
-[https://doi.org/XXX](https://doi.org/XXX)
-
-![thumbnail](./paper/thumbnail.png)
+![founding members](./paper/thumbnail.png)
 
 ## Summary
 
-Summary of the paper here (pulled from abstract/summary of paper) 
+Geophysical electromagnetics (EM) plays an important role in mineral exploration and is increasingly being used to help solve other problems of relevance to society. In this article we reflect, from our perspective at the University of British Columbia, on the development of EM geophysics over the years, on our attempts to enhance understanding of EM geophysics, and on its visibility and usefulness to the community. The availability of open-source resources and a shift within the EM community toward collabora-tive practices for sharing and creating software and educational resources have been drivers of progress toward these goals. In this article, we provide background about this trajectory and discuss how the SEG Distinguished Instructor Short Course was a catalyst in our development of software and resources as well as in our broader goal of creating more collaborative connections within the EM community.
 
 ## Citation
 
-Please include the formatted citation along with bibtex for the reference
+Douglas W. Oldenburg, Lindsey J. Heagy, Seogi Kang; Geophysical electromagnetics: A retrospective, DISC 2017, and a look forward. The Leading Edge 2021;; 40 (2): 140–148. doi: https://doi.org/10.1190/tle40020140.1
 
 ```
+@article{oldenburg_electromagnetics_2021,
+    author = {Oldenburg, Douglas W. and Heagy, Lindsey J. and Kang, Seogi},
+    title = "{Geophysical electromagnetics: A retrospective, DISC 2017, and a look forward}",
+    journal = {The Leading Edge},
+    volume = {40},
+    number = {2},
+    pages = {140-148},
+    year = {2021},
+    month = {02},
+    issn = {1070-485X},
+    doi = {10.1190/tle40020140.1},
+    url = {https://doi.org/10.1190/tle40020140.1}
+}
 
-## Examples
-- https://github.com/ubcgif/2023-heagy-oldenburg-gji-casing-permeability
-- https://github.com/ubcgif/2024-heagy-etal-tle-future-of-applied-geophysics
+```
