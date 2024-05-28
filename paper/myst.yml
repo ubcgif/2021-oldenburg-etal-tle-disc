@@ -2,49 +2,56 @@
 version: 1
 project:
   id: ubcgif-2022-oldenburg-etal-tle
-  # title: TITLE OF PAPER
-  # description: SHORT DESCRIPTION HERE
+  title: Geophysical electromagnetics- A retrospective, DISC 2017, and a look forward
+  description: Reflecting on the development of EM geophysics over the years, to enhance understanding of EM geophysics, and on its visibility and usefulness to the community.
   authors:
-    # - name: AUTHOR 1
-    #   email: EMAIL
-    #   corresponding: true
-    #   orcid: ORCID
-    #   affiliation:
-    #     id: ubc
-    #     name: Department of Earth, Ocean and Atmospheric Sciences, University of British Columbia, Vancouver, British Columbia
-    # - name: Lindsey J. Heagy
-    #   email: lheagy@eoas.ubc.ca
-    #   corresponding: true
-    #   orcid: 0000-0002-1551-5926
-    #   affiliation: ubc
-  # doi: DOI
-  # arxiv: ARXIV
+    - name: Doulas W. Oldenburg
+      email: doug@eos.ubc.ca
+      corresponding: true
+      orcid: 0000-0002-4327-2124
+      affiliation:
+        id: ubc
+        name: Department of Earth, Ocean and Atmospheric Sciences, University of British Columbia, Vancouver, British Columbia
+    - name: Lindsey J. Heagy
+      email: lheagy@eoas.ubc.ca
+      orcid: 0000-0002-1551-5926
+      affiliation: ubc
+    - name: Seogi Kang
+      email:  doug@eoas.ubc.ca
+      orcid: 0000-0002-9963-936X
+      affiliation: ubc
+  doi: 10.1190/tle40020140.1
+  arxiv: 2203.13931
   # github: GITHUB-URL
-  # date: YYYY/MM/DD # date of publication
+  date: 2021/02/02 # date of publication
   # license: CC-BY-4.0  # uncomment this and the line below if open access
   # open_access: true
   venue:
-    # title: JOURNAL NAME
-    # url: JOURNAL URL
+    title: The Leading Edge
+    url: https://library.seg.org/doi/abs/10.1190/tle40020140.1
   history:
     # received: YYYY/MM/DD
     # accepted: YYYY/MM/DD
-    # published: YYYY/MM/DD
+    published: 2021/02/02
   keywords:
-    # - KEYWORD 1
-    # - KEYWORD 2
-    # - KEYWORD 3
-    # - KEYWORD 4
+    - Electromagnetics
+    - Electrical Resistivity
+    - Mining
+    - Magnetotelluric
+    - CSEM
   abbreviations:
-    # CSEM: controlled source electromagnetics
-    # EM: electromagnetics
+    CSEM: controlled source electromagnetics
+    EM: electromagnetics
+    DC: Direct Current
+    IP: Induced Polarization
+    IAG: Inversion for Applied Geophysics
   thumbnail: thumbnail.png
-  # numbering:
-  #   headings: true
+  numbering:
+    headings: true
   bibliography: refs.bib
 site:
   template: article-theme
   actions:
     - title: pdf
-      # url: NAME-OF-PDF.pdf
+      url: 2021-oldenburg-etal-tle-disc.pdf
       static: true
