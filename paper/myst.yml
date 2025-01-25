@@ -30,8 +30,8 @@ project:
     title: The Leading Edge
     url: https://library.seg.org/doi/abs/10.1190/tle40020140.1
   history:
-    # received: YYYY/MM/DD
-    # accepted: YYYY/MM/DD
+    # received: YYYY-MM-DD
+    # accepted: YYYY-MM-DD
     published: 2021-02-02
   keywords:
     - Electromagnetics
