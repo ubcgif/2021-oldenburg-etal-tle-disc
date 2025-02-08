@@ -1,21 +1,22 @@
 ---
-title: Geophysical Electromagnetics: A retrospective, DISC 2017, and a look forward
+title: 'Geophysical Electromagnetics: A retrospective, DISC 2017, and a look forward'
 
 abstract: |
-    Geophysical electromagnetics (EM) plays an important role in mineral
-    exploration and is increasingly being used to help solve other problems
-    of relevance to society. In this article we reflect, from our
-    perspective at University of British Columbia (UBC), on the development
-    of EM geophysics over the years and on our attempts to enhance its
-    understanding, and its visibility and usefulness to the community. The
-    availability of open-source resources, and a shift within the EM
-    community towards collaborative practices for sharing and creating
-    software and educational resources, has been a driver of progress
-    towards these goals. In this article we provide some background about
-    this trajectory and how the SEG Distinguished Instructor Short Course
-    (DISC) was a catalyst in our development of software and resources and
-    in our broader goal of creating more collaborative connections within
-    the EM community.
+  Geophysical electromagnetics (EM) plays an important role in mineral
+  exploration and is increasingly being used to help solve other problems
+  of relevance to society. In this article we reflect, from our
+  perspective at University of British Columbia (UBC), on the development
+  of EM geophysics over the years and on our attempts to enhance its
+  understanding, and its visibility and usefulness to the community. The
+  availability of open-source resources, and a shift within the EM
+  community towards collaborative practices for sharing and creating
+  software and educational resources, has been a driver of progress
+  towards these goals. In this article we provide some background about
+  this trajectory and how the SEG Distinguished Instructor Short Course
+  (DISC) was a catalyst in our development of software and resources and
+  in our broader goal of creating more collaborative connections within
+  the EM community.
+
 ---
 
 ## Introduction
