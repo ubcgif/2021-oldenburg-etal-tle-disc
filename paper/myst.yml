@@ -21,18 +21,18 @@ project:
       orcid: 0000-0002-9963-936X
       affiliation: ubc
   doi: 10.1190/tle40020140.1
-  arxiv: 2203.13931
+  arxiv: https://arxiv.org/abs/2203.13931
   # github: GITHUB-URL
-  date: 2021/02/02 # date of publication
+  date: 2021-02-02 # date of publication
   # license: CC-BY-4.0  # uncomment this and the line below if open access
   # open_access: true
   venue:
     title: The Leading Edge
     url: https://library.seg.org/doi/abs/10.1190/tle40020140.1
   history:
-    # received: YYYY/MM/DD
-    # accepted: YYYY/MM/DD
-    published: 2021/02/02
+    # received: YYYY-MM-DD
+    # accepted: YYYY-MM-DD
+    published: 2021-02-02
   keywords:
     - Electromagnetics
     - Electrical Resistivity
